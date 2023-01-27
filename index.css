@@ -1,0 +1,50 @@
+.test{
+    height:150px;
+    width:150px;
+    background-color:red;
+    border-radius: 35px;
+    border-color: black;
+    margin-left: 500px;
+    
+    
+}
+
+.test1{
+    height:150px;
+    width:150px;
+    background-color: yellow;
+    border-color: black;
+    border-radius: 35px;
+
+}
+
+.test2{
+    height:150px;
+    width:150px;
+    background-color: blue;
+    border-color: black;
+    border-radius: 35px;
+    
+}
+
+#restButton{
+    height:100px;
+    width:150px;
+    margin-left: 650px;
+    font-size:larger;
+    border-color: black;
+    background-color: darkgreen;
+    border-radius: 25px;
+
+}
+.format{
+    font-size: 3cm;
+    margin-left: 490px;
+    font-family: "Righteous";
+    color:peru;
+    
+}
+
+body{
+    background-color: black;
+}
