@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    
-    <button id="1"  value="WRONG!"  class="test"></button>
-    <button id="2"   value="WRONG!" class="test1"></button>
-    <button id="3"  value="WRONG!" class="test2"></button> <br>
+     <h1>Guess the button</h1>
+ 
+    <button id="1"  onclick="apasa(this.value)" value="You clicked the wrong button!"  class="test"></button>
+    <button id="2"  onclick="apasa(this.value)" value="You clicked the wrong button!" class="test1"></button>
+    <button id="3"  onclick="apasa(this.value)" value="You clicked the wrong button!" class="test2"></button> 
+    <br>
     <br>
     <button onclick="reset()"    id="restButton"><b>Try again !</b></button>
+
     <p id="format" class="format"></p>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="index.js"></script>
     
 </body>
