@@ -2,7 +2,7 @@ let randomNumber = Math.floor(Math.random() * 3) +1;
 
 document.getElementById(randomNumber).value = "You clicked the right button!";
 
-function apasa(value){
+function getValue(value){
     document.getElementById("format").innerHTML = value;
 }
 
